@@ -251,6 +251,16 @@ div#helpPanel {
   display: none;
 }
 
+/*Specific job page back button style */
+a#requisitionDescriptionInterface\.backAction {
+  color: #4298B5 !important;
+}
+/*Specific job page Apply button style */
+input#requisitionDescriptionInterface\.UP_APPLY_ON_REQ\.row1 {
+  background: #4298B5;
+  color: #fff;
+}
+
 
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
@@ -879,7 +889,10 @@ html>body .headersection .headerpanel .linkpanel .link {
 }
 
 .headersection .headerpanel .linkpanel .selectedlink span {
-  color: #026485 !important;
+  color: #fff!important;
+  background-color: #404040;
+  padding: 0.5rem;
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .headersection .headerpanel .linkpanel .selectedlink a,
