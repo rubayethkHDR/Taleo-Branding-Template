@@ -283,6 +283,10 @@ input#requisitionDescriptionInterface\.BOTTOM_APPLY_ON_REQ\.row1
   border-radius: 0.5rem 0.5rem 0 0;
 }
 
+a#jobsearch-link {
+  width: 100%;
+}
+
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
 }
