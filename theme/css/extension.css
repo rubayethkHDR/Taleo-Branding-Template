@@ -261,6 +261,14 @@ input#requisitionDescriptionInterface\.UP_APPLY_ON_REQ\.row1 {
   color: #fff;
 }
 
+input#requisitionDescriptionInterface\.BOTTOM_APPLY_ON_REQ\.row1
+{
+  background: #4298B5;
+  color: #fff;
+}
+
+/**/
+
 /*Sub sections under the My JobPage nav item*/
 .headersection .link2panel .selectedlink2 {
   background-color: #999;
