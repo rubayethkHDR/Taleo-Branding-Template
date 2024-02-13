@@ -253,21 +253,27 @@ div#helpPanel {
 
 /*Specific job page back button style */
 a#requisitionDescriptionInterface\.backAction {
-  color: #4298B5 !important;
+  color: #017EA7 !important;
 }
 /*Specific job page Apply button style */
 input#requisitionDescriptionInterface\.UP_APPLY_ON_REQ\.row1 {
-  background: #4298B5;
+  background: #017EA7;
   color: #fff;
 }
 
 input#requisitionDescriptionInterface\.BOTTOM_APPLY_ON_REQ\.row1
 {
-  background: #4298B5;
+  background: #017EA7;
   color: #fff;
 }
 
-/**/
+/*New User login button change*/
+
+input#dialogTemplate-dialogForm-login-register {
+  color: #fff;
+  background-color: #017EA7;
+}
+
 
 /*Sub sections under the My JobPage nav item*/
 .headersection .link2panel .selectedlink2 {
@@ -910,7 +916,7 @@ html>body .headersection .headerpanel .linkpanel .link {
 
 
 .headersection .headerpanel .linkpanel .link a {
-  color:  #026485;
+  color:  #017EA7;
 }
 
 .headersection .headerpanel .linkpanel .selectedlink span {
@@ -1471,7 +1477,7 @@ fieldset.input-hier label.entity-label {
 #processlistTemplate-list-myProcessesViewContent-formTask-editTemplate-content-cfInner-cmdBottom-submit,
 #basicSearchFooterInterface\.searchAction,
 #advancedSearchFooterInterface\.searchAction {
-  background: #4298B5 !important;
+  background: #017EA7 !important;
   color: #fff !important;
 }
 
@@ -1842,7 +1848,7 @@ select[multiple] {
 }
 
 #processlistTemplate-list-myProcessesViewContent-task_complete {
-  background: #4298B5;
+  background: #017EA7;
   color: #fff;
 }
 
@@ -1910,7 +1916,7 @@ select[multiple] {
 
 .progress-bar-cell-filled {
   background-image: none;
-  background-color: #4298B5;
+  background-color: #017EA7;
 }
 
 .progress-bar-cell-empty {
@@ -2735,7 +2741,7 @@ html>body .datatrain-focus .datatrain-wagon {
 }
 
 .jobListPanel .result-list-button {
-  background-color: #4298B5;
+  background-color: #017EA7;
   color: #ffffff;
 }
 
