@@ -1052,7 +1052,13 @@ html > body .headersection .headerpanel .linkpanel .link a {
 
 
 /* Hide Help Panel for flow */
-.column165 .helppanel { display: block;}
+
+.column165 .helppanel {
+		display: block;
+		font-family: 'Whitney A','Whitney B',Arial,Helvetica,sans-serif;
+		line-height: 1.5;
+}
+
 
 /* The same button on footer  */
 .mainsection .footeractionpanel { height: auto; }
@@ -1912,12 +1918,12 @@ body, body .masterbody, .alert-frame, .sugInput-sug, .callout, .blockpanel .inpu
 
 /*Link colors - the following three sections specify the link color.  This should typically be the same color*/
 a:link, a:visited { 
-	color: #026485;
+	color: #017EA7;
 }
 
 /*Hover link color*/
 a:hover, a:active {
-	color: #026485;
+	color: #017EA7;
 }
 
 /*More link colors*/
@@ -1939,7 +1945,7 @@ a:hover, a:active {
 /*navigation - this is the main navigation bar (Job Search, My Job Page) and controls the color of the selected tab*/
 .headersection .headerpanel .linkpanel .selectedlink {
     background-color: #FFF;
-    color: #026485;
+    color: #017EA7;
 	text-decoration: underline;
 }
 
