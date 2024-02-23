@@ -573,8 +573,6 @@ function germanUI() {
 
 //This function is used to check if we are on the internal or external site and add an indicator to show the user.
 function customizations() {
-  let divmenutags = document.querySelectorAll(".responsive_menu"); // select the header menu by its class
-  let divinternalmessageheader = document.querySelector(".hdr-internalheader-message");
   let referraltags = document.querySelectorAll(".referral");//select footer referral link by the class
 
 
@@ -585,11 +583,5 @@ function customizations() {
     });
   }
   
-  if (window.location.href.includes("/careersection/in/")){
-    //For internal job board we want to hide the menu links at the top. 
-    divmenutags.forEach(function(divmenutag){
-        divmenutag.style.display = "none"
-    });
-  }
 
 }
