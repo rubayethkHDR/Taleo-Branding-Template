@@ -294,6 +294,12 @@ input#dialogTemplate-dialogForm-login-register {
   border-radius: 0.5rem 0.5rem 0 0;
 }
 
+/* Job specific page sub menu <ul> bar background .*/
+.headersection .link2panel {
+  background-color: #fff;
+  padding:3px;
+}
+
 a#jobsearch-link {
   width: 100%;
 }
