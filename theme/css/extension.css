@@ -730,6 +730,7 @@ body .masterbody,
 .blockpanel .metalink {
   font-size: 14px;
   text-decoration: none;
+  color:#017EA7;
 }
 
 .jobsearch .multiline-icon-container {
@@ -942,7 +943,8 @@ html>body .headersection .headerpanel .linkpanel .link {
 .headersection .headerpanel .linkpanel .selectedlink a,
 .headersection .headerpanel .linkpanel .selectedlink span {
   font-size: 14px;
-  font-family: "OpenSans-Bold";
+  font-family: 'Whitney A', 'Whitney B', Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .masterbody .headerpanel .right-header-info {
@@ -1257,7 +1259,7 @@ fieldset.input-hier label.entity-label {
 .entity-label {
   margin-top: 10px;
   margin-bottom: 0;
-  font-family: "OpenSans-Regular";
+  font-family: 'Whitney A', 'Whitney B', Arial, Helvetica, sans-serif;
 }
 
 .entity-label+select {
@@ -1533,7 +1535,7 @@ fieldset.input-hier label.entity-label {
   display: inline-block;
   text-decoration: none;
   padding: 5px 10px;
-  font-family: "OpenSans-Regular";
+  font-family: 'Whitney A', 'Whitney B', Arial, Helvetica, sans-serif;
   background: #E5E5E5;
   margin-bottom: 7px;
 }
@@ -1611,7 +1613,7 @@ select {
   background: #fff;
   border: 1px solid #d7d7d7;
   display: block;
-  font-family: "OpenSans-Regular";
+  font-family: 'Whitney A', 'Whitney B', Arial, Helvetica, sans-serif;
 }
 
 select[multiple] {
@@ -2687,6 +2689,7 @@ ul.offerList li {
 
 .blockpanel .entity-label {
   white-space: normal;
+  font-family: 'Whitney A', 'Whitney B', Arial, Helvetica, sans-serif;
 }
 
 .custom-form-columns .fs-508 input[type='text'] {
