@@ -544,44 +544,66 @@
   };
 
   window.addEventListener("load", function (event) {
-    germanUI();
-    customizations();
+    //call function to handle the page language dependent UI
+    internal_or_external();
     C.init();
   });
 })();
 
-// This function uses the navigator.languages property to get the browser language preference
-// and the geolocation API to get the user's location
-function germanUI() {
-  // Get the first language from the navigator.languages array
-  let lang = navigator.languages[0];
-  console.log(`The language is: ${lang}`);
-  if (lang === "de") {
-    document.getElementById("hdr-header-german").style.display = "block";
-    document.getElementById("hdr-footer-german").style.display = "block";
-
-    document.getElementById("hdr-header-english").style.display = "none";
-    document.getElementById("hdr-footer-english").style.display = "none";
-  } else {
-    document.getElementById("hdr-header-german").style.display = "none";
-    document.getElementById("hdr-footer-german").style.display = "none";
-
-    document.getElementById("hdr-header-english").style.display = "block";
-    document.getElementById("hdr-footer-english").style.display = "block";
-  }
-}
 
 //This function is used to check if we are on the internal or external site and add an indicator to show the user.
-function customizations() {
-  let referraltags = document.querySelectorAll(".referral");//select footer referral link by the class
+function internal_or_external() {
 
+  const lang = navigator.languages[0];
+  console.log(`The language is: ${lang}`);
 
+  //Customize sections based on external url
   if (window.location.href.includes("/careersection/ex/")) {
-    //For external board we want to hide the referral link in the footer. 
-    referraltags.forEach(function (referraltag) {
-      referraltag.style.display = "none";
-    });
-  }
-  
+    //show all external UI
+    document.getElementById("external-headers").style.display = "block";
+    document.getElementById("external-footers").style.display = "block";
+    //hide all internal UI
+    document.getElementById("internal-headers").style.display = "none"
+    document.getElementById("internal-footers").style.display = "none";
 
+    if (lang === "de") {
+      document.getElementById("hdr-header-german").style.display = "block";
+      document.getElementById("hdr-footer-german").style.display = "block";
+  
+      document.getElementById("hdr-header-english").style.display = "none";
+      document.getElementById("hdr-footer-english").style.display = "none";
+    } else {
+      document.getElementById("hdr-header-german").style.display = "none";
+      document.getElementById("hdr-footer-german").style.display = "none";
+  
+      document.getElementById("hdr-header-english").style.display = "block";
+      document.getElementById("hdr-footer-english").style.display = "block";
+    }
+
+  }
+
+  //customize sections based on internal url
+  if (window.location.href.includes("/careersection/in/")) {
+    //HIde all external UI
+    document.getElementById("external-headers").style.display = "none";
+    document.getElementById("external-footers").style.display = "none";
+
+    //Show all internal UI
+    document.getElementById("internal-headers").style.display = "block"
+    document.getElementById("internal-footers").style.display = "block";
+
+    if (lang === "de") {
+      document.getElementById("hdr-header-german-internal").style.display = "block";
+      document.getElementById("hdr-footer-german-internal").style.display = "block";
+  
+      document.getElementById("hdr-header-english-internal").style.display = "none";
+      document.getElementById("hdr-footer-english-internal").style.display = "none";
+    } else {
+      document.getElementById("hdr-header-german-internal").style.display = "none";
+      document.getElementById("hdr-footer-german-internal").style.display = "none";
+  
+      document.getElementById("hdr-header-english-internal").style.display = "block";
+      document.getElementById("hdr-footer-english-internal").style.display = "block";
+    }
+  }
 }
