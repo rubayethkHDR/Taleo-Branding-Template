@@ -294,6 +294,15 @@ input#dialogTemplate-dialogForm-login-register {
   border-radius: 0.5rem 0.5rem 0 0;
 }
 
+.mainsection .inputbutton{
+  background-color:#017EA7 !important;
+  color:#fff !important;
+}
+
+.hidden-audible{
+  display:none;
+}
+
 /* Job specific page sub menu <ul> bar background .*/
 .headersection .link2panel {
   background-color: #fff;
@@ -337,6 +346,7 @@ body * {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   font-family: 'Whitney A','Whitney B',Arial,Helvetica,sans-serif;
+  font-size: 14px;
 }
 
 table {
@@ -2000,7 +2010,6 @@ select[multiple] {
 }
 
 .processesTaskTable .metalink2 {
-  float: right;
   margin-right: 10px;
 }
 
@@ -2262,7 +2271,7 @@ ul.offerList li {
 
   .headersection .headerpanel .linkpanel li {
     display: block;
-    width: 50%;
+    width: 30%;
   }
 
   #headerPanelContainer .right-header-info {

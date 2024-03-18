@@ -739,7 +739,7 @@ html > body .headersection .headerpanel .linkpanel li.link { margin: 7px 11px 5p
 .headersection .headerpanel .linkpanel .link, .headersection .headerpanel .linkpanel .selectedlink {
 	background-color: transparent;
 	border-radius: 3px;
-	float: left;
+	/* float: left; */
 	padding: 5px 8px !important;
 	margin: 0 !important;
 	z-index: 2;
