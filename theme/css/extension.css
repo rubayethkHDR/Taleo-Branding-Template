@@ -209,7 +209,7 @@ span.hdr-seperator{
   font-size: large;
 }
 .hdr-footer .hdr-footer-links a {
-  color: #017EA7;
+  color: #377F99;
 }
 
 .hdr-footer-icons {
@@ -253,11 +253,11 @@ div#helpPanel {
 
 /*Specific job page back button style */
 a#requisitionDescriptionInterface\.backAction {
-  color: #017EA7 !important;
+  color: #377F99 !important;
 }
 /*Specific job page Apply button style */
 input#requisitionDescriptionInterface\.UP_APPLY_ON_REQ\.row1 {
-  background: #017EA7;
+  background: #377F99;
   color: #fff;
 }
 
@@ -268,7 +268,7 @@ input#requisitionDescriptionInterface\.UP_APPLY_ON_REQ\.row1 {
 
 input#requisitionDescriptionInterface\.BOTTOM_APPLY_ON_REQ\.row1
 {
-  background: #017EA7;
+  background: #377F99;
   color: #fff;
 }
 
@@ -276,7 +276,7 @@ input#requisitionDescriptionInterface\.BOTTOM_APPLY_ON_REQ\.row1
 
 input#dialogTemplate-dialogForm-login-register {
   color: #fff;
-  background-color: #017EA7;
+  background-color: #377F99;
 }
 
 
@@ -294,9 +294,25 @@ input#dialogTemplate-dialogForm-login-register {
   border-radius: 0.5rem 0.5rem 0 0;
 }
 
+/*Fix line spacing for span tags that do not have a p tag child*/
+.mainsection .editablesection .text {
+  display: block;
+}
+
+/* Force 14px on the p and span tags of job post bodies */
+.editablesection .text p 
+, .editablesection .text span {
+  font-size: 14px !important;
+  font-family: 'Whitney A','Whitney B',Arial,Helvetica,sans-serif !important;
+}
+
 .mainsection .inputbutton{
-  background-color:#017EA7 !important;
+  background-color:#377F99 !important;
   color:#fff !important;
+}
+
+.mainsection .requisitionDescription .editablesection .subtitle {
+  display:inline;
 }
 
 .hidden-audible{
@@ -739,7 +755,7 @@ body .masterbody,
 .blockpanel .metalink {
   font-size: 14px;
   text-decoration: none;
-  color:#017EA7;
+  color:#377F99;
 }
 
 .jobsearch .multiline-icon-container {
@@ -939,7 +955,7 @@ html>body .headersection .headerpanel .linkpanel .link {
 
 
 .headersection .headerpanel .linkpanel .link a {
-  color:  #017EA7;
+  color:  #377F99;
 }
 
 .headersection .headerpanel .linkpanel .selectedlink span {
@@ -1500,7 +1516,7 @@ fieldset.input-hier label.entity-label {
 #processlistTemplate-list-myProcessesViewContent-formTask-editTemplate-content-cfInner-cmdBottom-submit,
 #basicSearchFooterInterface\.searchAction,
 #advancedSearchFooterInterface\.searchAction {
-  background: #017EA7 !important;
+  background: #377F99 !important;
   color: #fff !important;
 }
 
@@ -1871,7 +1887,7 @@ select[multiple] {
 }
 
 #processlistTemplate-list-myProcessesViewContent-task_complete {
-  background: #017EA7;
+  background: #377F99;
   color: #fff;
 }
 
@@ -1939,7 +1955,7 @@ select[multiple] {
 
 .progress-bar-cell-filled {
   background-image: none;
-  background-color: #017EA7;
+  background-color: #377F99;
 }
 
 .progress-bar-cell-empty {
@@ -2764,7 +2780,7 @@ html>body .datatrain-focus .datatrain-wagon {
 }
 
 .jobListPanel .result-list-button {
-  background-color: #017EA7;
+  background-color: #377F99;
   color: #ffffff;
 }
 
